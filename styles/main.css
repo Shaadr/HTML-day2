@@ -1,0 +1,69 @@
+.main-header {
+  width: 90%;
+  height: 65px;
+  background: lightgray;
+  margin: 25px auto;
+  padding: 20px;
+  position: relative right 0;
+}
+
+.main-header h1 {
+  float: left;
+  color: black;
+  font-size: 28px;
+}
+
+.main-header li {
+  position: absolute left 0;
+  float: right;
+  font-size: 24px;
+  color: black;
+  margin: 0 20px 0 20px;
+}
+
+.main-wrapper {
+  width: 90%;
+  margin:auto;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  /*flex-direction: column;*/
+}
+
+.blue-box {
+  width: 40%;
+  height: 300px;
+  background: #1CEAF4;
+  margin-bottom: 50px;
+  /*<!-- container MUST have  position: relative; -->*/
+  position: relative;
+  /*display: inline-block;*/
+}
+
+.circle {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.tl {
+  top: 20px;
+  left: 20px;
+}
+
+.tr {
+  top: 20px;
+  right: 20px;
+}
+
+.bl {
+  bottom: 20px;
+  left: 20px;
+}
+
+.br {
+  bottom: 20px;
+  right: 20px;
+}

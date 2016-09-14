@@ -1,0 +1,62 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:500';
+
+.main-container {
+  width: 574px;;
+  height: 1058px;
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-06.jpg") no-repeat;
+  background-size: cover;
+  /*background-position: absolute;*/
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+
+.marketplace {
+  font-size: 38px;
+  padding: 20px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 4px;
+
+}
+
+.invision {
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 4px;
+}
+
+/*.divlogo {
+  margin-top: 50px;
+}*/
+
+.logo {
+  display: flex;
+  justify-content:center;;
+  margin-top: 40px;
+
+}
+
+.header-footer {
+  width: 100%;
+  position:absolute;
+  font-size: 18px;
+  left: 0px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.invision-span {
+  text-decoration: underline;
+  text-decoration: #fff;
+  text-decoration-style: solild;
+}*/
